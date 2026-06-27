@@ -47,4 +47,6 @@ Sin embargo, el procesamiento de pagos necesita consistencia fuerte, control tra
 
 ### c) ¿Qué mecanismo técnico usa CockroachDB para mantener ACID en múltiples nodos distribuidos?
 
+**Raft consensus.** Este mecanismo permite coordinar los nodos distribuidos y mantener consistencia en las transacciones.
+
 **Raft consensus.**
